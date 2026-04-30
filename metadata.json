@@ -1,0 +1,31 @@
+{
+    "id": "bitalino-recorder",
+    "name": "Bitalino Recorder",
+    "description": "Records physiological data from a BITalino device to a text file.",
+    "version": "0.1.0",
+    "publisher": {
+        "id": "interaction-lab",
+        "name": "InTeractiOn Lab",
+        "url": "https://interaction-lab.info"
+    },
+    "repository": "https://github.com/MultimodalObserver-2",
+    "author": {
+        "name": "Camila Carabajal",
+        "email": "camila.carabajal@usach.cl"
+    },
+    "icon": {
+        "dark": "icons/icon_dark.svg",
+        "light": "icons/icon_light.svg"
+    },
+    "locales": "locales",
+    "platform": {
+        "linux": true,
+        "windows": true,
+        "mac": true
+    },
+    "entryPoints": {
+        "mo.plugin": "src.bitalino_recorder.main:BitalinoRecorderPlugin",
+        "mo.plugin.properties": "src.bitalino_recorder.properties:get_properties"
+    },
+    "target": "api"
+}
