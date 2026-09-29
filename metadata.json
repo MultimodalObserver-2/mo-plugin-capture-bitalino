@@ -2,7 +2,7 @@
     "id": "bitalino-recorder",
     "name": "Bitalino Recorder",
     "description": "Records physiological data from a BITalino device to a text file.",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "publisher": {
         "id": "interaction-lab",
         "name": "InTeractiOn Lab",
